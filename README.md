@@ -16,8 +16,10 @@ Este proyecto es una prueba técnica para Nequi, implementando una API para la g
 ### Prerrequisitos
 - JDK 17
 - Maven
+- Docker (para despliegue con contenedor)
 
-### Pasos para Ejecutar Localmente
+### Opción 1: Ejecución directa
+
 1. Clonar el repositorio:
    ```
    git clone [url-del-repositorio]
@@ -40,11 +42,27 @@ Este proyecto es una prueba técnica para Nequi, implementando una API para la g
      java -jar "NequiBackend-0.0.1-SNAPSHOT.jar"
      ```
 
+### Opción 2: Despliegue con Docker
+
+1. Asegúrate de tener Docker instalado y en ejecución en tu sistema.
+
+2. Construye la imagen Docker:
+   ```
+   docker build -t nequi-api .
+   ```
+
+3. Ejecuta el contenedor:
+   ```
+   docker run -p 8080:8080 nequi-api
+   ```
+
+   Esto iniciará la aplicación y la hará accesible en `http://localhost:8080/nequi`.
+
 ## Pruebas
 La API está actualmente alojada en AWS EC2 para propósitos de prueba en la URL proporcionada en el enlace de Swagger UI mencionado anteriormente.
 
 ## Soporte
-Para cualquier pregunta o problema, por favor contactarme.
+Para cualquier pregunta o problema, por favor abre un issue en este repositorio de GitHub.
 
 ## Sugerencia 
 Al terminar las pruebas informar para detener los servicios actualmente corriendo en AWS.
