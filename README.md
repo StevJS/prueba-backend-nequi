@@ -4,7 +4,7 @@
 Este proyecto es una prueba técnica para Nequi, implementando una API para la gestión de franquicias.
 
 ## Documentación de la API
-- **Swagger UI:** [http://34.235.120.208:8080/nequi/swagger-ui/index.html](http://34.235.120.208:8080/nequi/swagger-ui/index.html)
+- **Swagger UI:** [http://ec2-34-235-120-208.compute-1.amazonaws.com:8080/nequi/swagger-ui/index.html](http://ec2-34-235-120-208.compute-1.amazonaws.com:8080/nequi/swagger-ui/index.html)
 - La interfaz Swagger UI proporciona documentación detallada de todos los endpoints disponibles.
 
 ## Conexión a la Base de Datos
