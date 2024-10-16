@@ -44,4 +44,7 @@ Este proyecto es una prueba técnica para Nequi, implementando una API para la g
 La API está actualmente alojada en AWS EC2 para propósitos de prueba en la URL proporcionada en el enlace de Swagger UI mencionado anteriormente.
 
 ## Soporte
-Para cualquier pregunta o problema, por favor abre un issue en este repositorio de GitHub.
+Para cualquier pregunta o problema, por favor contactarme.
+
+## Sugerencia 
+Al terminar las pruebas informar para detener los servicios actualmente corriendo en AWS.
